@@ -196,7 +196,7 @@ def post_removenode():
 if __name__ == '__main__':
     # Connect to OneView
     print ("ov2mesos service started")
-    ov_client = OneViewClient.from_environment_variables()
+    #ov_client = OneViewClient.from_environment_variables()
     #ov_client = OneViewClient(config)
     #app.run(debug=True)
     app.run()
